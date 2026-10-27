@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 .DS_Store
 exercises/
+build_coverage.py
+coverage_rules.py
+exhibit_split.py
+test_coverage_rules.py
+test_exhibit_split.py
