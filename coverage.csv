@@ -1,0 +1,26 @@
+ticker,filing_date,item,chars,where_found,note
+JPM,2026-02-13,Item 1,39278,10-K body,
+JPM,2026-02-13,Item 1A,112862,10-K body,
+JPM,2026-02-13,Item 7,419380,10-K body,
+JPM,2026-02-13,Item 7A,250,10-K body,"pointer to a section inside Item 7: 'MARKET RISK MANAGEMENT' heading at char 292,440 of 419,380"
+JPM,2026-02-13,Item 8,579054,10-K body,
+WFC,2026-02-24,Item 1,46004,10-K body,
+WFC,2026-02-24,Item 1A,103565,EX-13,"body is a pointer; EX-13 is 1,363,703 chars; cut from EX-13: 'Risk Factors' to 'Controls and Procedures'"
+WFC,2026-02-24,Item 7,540787,EX-13,"body is a pointer; EX-13 is 1,363,703 chars; cut from EX-13: 'Financial Review' to 'Controls and Procedures'"
+WFC,2026-02-24,Item 7A,25798,EX-13,"body is a pointer; EX-13 is 1,363,703 chars; cut from EX-13: 'Asset/Liability Management' to 'LIQUIDITY RISK AND FUNDING'"
+WFC,2026-02-24,Item 8,797197,EX-13,"body is a pointer; EX-13 is 1,363,703 chars; cut from EX-13: 'Financial Statements' to 'Glossary of Acronyms'"
+BAC,2026-02-25,Item 1,38092,10-K body,
+BAC,2026-02-25,Item 1A,117128,10-K body,
+BAC,2026-02-25,Item 7,298749,10-K body,
+BAC,2026-02-25,Item 7A,219,10-K body,"pointer to a section inside Item 7: 'Market Risk Management' heading at char 229,694 of 298,749"
+BAC,2026-02-25,Item 8,394332,10-K body,
+C,2026-02-20,Item 1,223706,10-K body,"item texts sum to 2,564,199 chars vs 1,740,227 in the filing, so item boundaries overlap"
+C,2026-02-20,Item 1A,88529,10-K body,"item texts sum to 2,564,199 chars vs 1,740,227 in the filing, so item boundaries overlap"
+C,2026-02-20,Item 7,445020,10-K body,"item texts sum to 2,564,199 chars vs 1,740,227 in the filing, so item boundaries overlap"
+C,2026-02-20,Item 7A,833174,10-K body,"item texts sum to 2,564,199 chars vs 1,740,227 in the filing, so item boundaries overlap"
+C,2026-02-20,Item 8,973770,10-K body,"item texts sum to 2,564,199 chars vs 1,740,227 in the filing, so item boundaries overlap"
+GS,2026-02-25,Item 1,152453,10-K body,
+GS,2026-02-25,Item 1A,142138,10-K body,
+GS,2026-02-25,Item 7,313835,10-K body,
+GS,2026-02-25,Item 7A,336,10-K body,"pointer to a section inside Item 7: 'Risk Management' heading at char 173,880 of 313,835"
+GS,2026-02-25,Item 8,455591,10-K body,
